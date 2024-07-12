@@ -166,6 +166,14 @@ Route::prefix('admin')->middleware(['auth','isAdmin'])->group(function () {
         Route::get('vision/{vision}/edit','edit');
         Route::put('vision/{vision}','update');
     });
+    Route::controller(App\Http\Controllers\Admin\administration\ChairmanController::class)->group(function () {
+        Route::get('administration/chairman','index');
+        Route::get('administration/chairman/create','create');
+        Route::post('administration/chairman/create','store');
+        Route::get('administration/chairman/{chairman}/edit','edit');
+        Route::put('administration/chairman/{chairman}','update');
+        Route::get('administration/chairman/{chairman}/delete','destroy');
+    });
 
 
 });

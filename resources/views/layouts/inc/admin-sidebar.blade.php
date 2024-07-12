@@ -23,6 +23,17 @@
                         <a class="nav-link {{ Request::is('admin/submenu')|| Request::is('admin/submenu/*') ? 'active':''}}" href="{{url('admin/submenu')}}"><i class="fa-solid fa-caret-down"></i>&ensp;Sub Menu</a>
                     </nav>
                 </div>
+                <a class="nav-link {{ Request::is('admin/administration/chairman')|| Request::is('admin/administration/ed')||Request::is('admin/administration/chairman/*')|| Request::is('admin/administration/ed/*') ? 'collapse active':'collapsed'}}" href="#" data-bs-toggle="collapse" data-bs-target="#collapseMenus" aria-expanded="false" aria-controls="collapseLayouts">
+                    <div class="sb-nav-link-icon"><i class="fa-solid fa-bars"></i></div>
+                    Administration
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse {{ Request::is('admin/administration/chairman')|| Request::is('admin/administration/ed')||Request::is('admin/administration/chairman/*')|| Request::is('admin/administration/ed/*') ? 'show':''}}" id="collapseMenus" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link {{ Request::is('admin/administration/chairman') ||Request::is('admin/administration/chairman/*')? 'active':''}}" href="{{url('admin/administration/chairman')}}"><i class="fa-solid fa-minus"></i>&ensp;Chairman</a>
+                        <a class="nav-link {{ Request::is('admin/administration/ed')|| Request::is('admin/administration/ed/*') ? 'active':''}}" href="{{url('admin/administration/ed')}}"><i class="fa-solid fa-caret-down"></i>&ensp;ED</a>
+                    </nav>
+                </div>
                 <a class="nav-link {{ Request::is('admin/sliders') ? 'active':''}}" href="{{url('admin/sliders')}}">
                     <div class="sb-nav-link-icon"><i class="fa-solid fa-right-left"></i></div>
                     Sliders

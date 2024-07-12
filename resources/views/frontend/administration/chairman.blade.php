@@ -5,11 +5,12 @@
     <h4 style="color:#1254A0;" class="d-inline-block mx-3"><b>Chairman</b></h4>
     <p class="float-end d-inline-block hdp "><b><a href="/" style="color: black;">Home</a> > <a href="" style="color: black;">Administration</a> > <a href="" style="color: #1254A0;">Chairman</a></b></p><br><br class="d-md-none"><br class="d-md-none">
 </div>
+@foreach ($chairman as $cm)
 <div class="d-flex justify-content-center pt-4">
     <div class="card text-center text-white" style="width: 32rem; height:100%; background-color:#3895D3">
-        <img class="card-img-top" src={{URL::asset("images\chairman.jpg")}} alt="Card image cap">
+        <img class="card-img-top" src={{asset("$cm->image")}} alt="Card image cap">
         <div class="card-body">
-          <p class="card-title h5">Dr.K.Ramakrishnan</p>
+          <p class="card-title h5">{{$cm->name}}</p>
           <p class="card-text">Chairman</p>
         </div>
     </div>
@@ -25,5 +26,5 @@
 
         His matchless interest in imparting quality-engineering education elevated the college to a prominent position among the several engineering colleges in Tamilnadu.</p><br><br>
 </div>
-
+@endforeach
 @endsection

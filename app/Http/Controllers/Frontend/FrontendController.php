@@ -17,6 +17,7 @@ use App\Models\Footer\Footer2;
 use App\Models\Footer\Footer3;
 use App\Models\Side\AboutUs\Vision;
 use App\Http\Controllers\Controller;
+use App\Models\Administration\Chairman;
 
 class FrontendController extends Controller
 {
@@ -64,7 +65,8 @@ class FrontendController extends Controller
         $footer1=Footer1::where('status','0')->get();
         $footer2=Footer2::where('status','0')->get();
         $footer3=Footer3::where('status','0')->get();
-        return view('frontend.administration.chairman',compact('menuItems','footer1','footer2','footer3'));
+        $chairman=Chairman::all();
+        return view('frontend.administration.chairman',compact('menuItems','footer1','footer2','footer3','chairman'));
     }
     public function ed(){
         $menuItems=MenuItem::where('status','enabled')->get();

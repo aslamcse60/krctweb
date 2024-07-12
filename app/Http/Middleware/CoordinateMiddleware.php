@@ -25,7 +25,7 @@ class CoordinateMiddleware
         }
         else
         {
-            return redirect('/home')->with('status','Access Denied! You are not a Coordinator');
+            return redirect('/dashboard')->with('status','Access Denied! You are not a Coordinator');
         }
         }
         else

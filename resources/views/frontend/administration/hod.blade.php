@@ -11,10 +11,10 @@
     <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #ECF3FF;">
-        <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+        <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><b>Department of Computer Science and Engineering</b></h5><hr>
-            <p class="card-text"><b id="hn">Dr.M.Sivakumar,</b> M.E,Ph.D.,</p>
+            <p class="card-text"><b id="hn">Dr.A.Delphin Carolina Rani,</b> M.E,Ph.D.,</p>
             <p><b>Associate Professor and Head</b></p>
             <p><b>Email id: hodcse@krct.ac.in</b></p>
         </div>
@@ -22,7 +22,7 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #F3F3F3;">
-        <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+        <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><b>Department of Civil Engineering</b></h5><hr>
             <p class="card-text"><b id="hn">Dr.S.Sujatha,</b> M.E,M.BA,Ph.D.,</p>
@@ -33,11 +33,11 @@
     </div>
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #FFFCF0;">
-        <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+        <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><b>Department of Electrical & Electronics Engineering</b></h5><hr>
-            <p class="card-text"><b id="hn">Dr.A.Rajkumar,</b> M.E,Ph.D.,MISTE,MIEEE</p>
-            <p><b>Professor and Head</b></p>
+            <p class="card-text"><b id="hn">Mr. A.T.Sankara Subramanian, </b> M.E, (Ph.D).,</p>
+            <p><b>Assistant Professor and Head</b></p>
             <p><b>Email id: hodeee@krct.ac.in</b></p>
         </div>
         </div>
@@ -45,29 +45,29 @@
     <br><br>
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #F9EFEF;">
-            <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+            <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><b>Department of Electrical & Communication Engineering</b></h5><hr>
-                <p class="card-text"><b id="hn">Dr.Kavitha A,</b> M.Tech,Ph.D.,</p>
-                <p><b>Professor and Head</b></p>
+                <p class="card-text"><b id="hn">Dr. S.Syedakbar,</b> M.E,Ph.D.,</p>
+                <p><b>Associate Professor and Head</b></p>
                 <p><b>Email id: hodece@krct.ac.in</b></p>
             </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #FFF2E6;">
-        <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+        <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><b>Department of Mechanical Engineering</b></h5><hr>
-            <p class="card-text"><b id="hn">Dr.B.Suresh Kumar,</b> M.Tech,Ph.D.,</p>
-            <p><b>Professor and Head</b></p>
+            <p class="card-text"><b id="hn">Dr. R.Yokeshwaran,</b> M.Tech,Ph.D.,</p>
+            <p><b>Assistant Professor and Head</b></p>
             <p><b>Email id: hodmech@krct.ac.in</b></p>
         </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #E9F6FF;">
-        <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+        <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><b>Department of Artificial Intelligence</b></h5><hr>
             <p class="card-text "><b id="hn">Dr.T.Avudaiappan,</b> M.E,Ph.D.,</p>
@@ -79,11 +79,11 @@
     <br><br>
     <div class="col-lg-4 col-md-6 col-sm-7 py-3 d-flex" id="hd">
         <div class="card hod" style="background-color: #EFFFEA;">
-        <img src={{URL::asset("images/placement.jpg")}} class="card-img-top" alt="...">
+        <img src={{URL::asset("images/hod.jpeg")}} class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><b>Department of Science and Humanities</b></h5><hr>
-            <p class="card-text"><b id="hn">Dr.K.Thiagarajan,</b> M.Sc.,M.Ed.,M.L.I.Sc.,Ph.D,P.B.Sc.D.C.S.A.,P.B.Ed.Dip.School.Admn.,</p>
-            <p><b>Professor and Head</b></p>
+            <p class="card-text"><b id="hn">Mr. S.Dinesh,</b> M.E., (Ph.D).,</p>
+            <p><b>Assistant Professor and Head</b></p>
             <p><b>Email id: hodeee@krct.ac.in</b></p>
         </div>
         </div>

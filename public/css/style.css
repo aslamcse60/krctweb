@@ -122,6 +122,9 @@
         #hello .dropdown-menu li a:hover{
               color: #3895D3 !important;
         }
+        #hello .dropdown-menu li a:focus{
+            color: lightgrey !important;
+      }
 
         .menu ul li a:hover, .mobmenu ul li a:focus{
           color:lightgrey !important;
